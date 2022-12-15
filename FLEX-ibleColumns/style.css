@@ -1,0 +1,28 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2, .col-3 {
+    flex: 1;
+    height: 20px;
+    width: 200px;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    background-color: aquamarine;
+    /* padding-right: 20px; */
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+} 
