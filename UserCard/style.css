@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+
+.cardinfo {
+    width: 250px;
+    height: 150px;
+    background-color: whitesmoke;
+    border: 2px solid grey;
+}
+
+.topblock {
+    background-color: teal;
+    height: 50px;
+}
+.usericon{
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.info {
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+h3{
+    font-size: medium;
+    margin-bottom: 3px;
+}
+
+.loc, .lastline {
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+.masterof {
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+.mappin, .gearicon {
+    width: 6px;
+    margin-right: 5px;
+}
