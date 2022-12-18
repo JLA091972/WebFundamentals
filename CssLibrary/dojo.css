@@ -1,0 +1,59 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: aqua;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 10px;   
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    height: 20px;
+    width: 200px;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    background-color: aquamarine;
+}
+
+.navbar {
+    display: flex;
+    height: 40px;
+    width: 500px;
+    background-color: rgb(72, 68, 68);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.topblock {
+    height: 30%;
+    background-color: lightseagreen ;
+}
+.toplabel{
+        padding: 10px;
+    background-color: black;
+}
+.pic {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
