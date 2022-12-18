@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    border: 1px dashed red;
+}
+
+.topnav, .navlist {
+    height: 50px;
+    background-color: black;
+}
+
+.navlist, .mainbody, .navbar {
+    width: 800px;
+    margin: 0 auto;
+    color:wheat;
+    display: flex;
+    align-items: center;
+}
+
+.navlist p, .me {
+    color: white;
+}
+
+.profile {
+    font-size: 35px;
+    margin-right: 50px;
+}
+
+.signoff {
+    background-color: aqua;
+    border: 3px solid grey;
+    box-shadow: 2px 2px rgb(252, 252, 252);
+    font-size: 20px;   
+}
+
+ul {
+    flex: 2;
+    display: flex;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+li {
+    margin-right: 20px;
+}
+
+input {
+    font-size: 20px;
+    /* background-color: lightseagreen; */
+    color: whitesmoke;
+    padding: 3px 10px;
+}
+
+
+/* This will setup bottom portion */
+
+.mainbody, .leftcolumn,.rightcolumn{
+    height: 800px;
+    margin-top: 10px;
+}
+
+.mainbody {
+    /* background-color: aqua; */
+    gap: 20px;
+}
+
+/* ********************************** */
+/* general use rules */
+
+    .topblock {
+        height: 30%;
+        background-color: lightseagreen ;
+    }
+
+    .toplabel{
+        /* display: flex;
+        align-items: center; */
+        /* height: 40px ; */
+        padding: 10px;
+        background-color: black;
+        /* margin-bottom: 20px; */
+    }
+
+    .pic {
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+/* ********************************** */
+
+
+/* setup left column */
+.leftcolumn{
+    flex: 2;
+    /* background-color: yellowgreen; */
+}
+
+.usercard {
+    height: 350px;
+    background-color: white;
+    margin-bottom: 20px; 
+    border: 3px solid grey;
+}
+
+
+.profpic {
+    background-color: teal;
+    height: 130px;
+    border-radius: 40%;
+    margin-top: 8%;
+    margin-left: 20px ;
+}
+
+.info {
+    color: black;
+    margin-top: 15%;
+    margin-left: 15px;
+}
+
+.infoicon {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 40px;
+    margin-bottom: 3px;
+}
+.address{
+    font-size: 20px;
+}
+
+.masterof {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.edcard{
+    height: 150px;
+    background-color: white;
+    border: 3px solid grey;
+    
+}
+
+
+.edlabel {
+    margin-left: 15px;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.info1, .info2, .info3{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.info1{
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.info2{
+    color: rgb(39, 39, 39);
+}
+
+.info3 {
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+}
+
+
+.rightcolumn{
+    flex: 1;
+}
+
+.countdisplay {
+    height: 20px;
+    width:40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 8px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.connectrequest{
+    height: 150px;
+    background-color: white;
+    margin-bottom: 20px; 
+    border: 3px solid grey;
+
+}
+
+.conreq {
+    font-size: 15px;
+}
+
+.respondicon {
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 2px;
+    justify-content: end;
+}
+
+.requestwindow {
+    /* display: flex; */
+    height: 150px;
+    margin-top: 10px;
+}
+
+.requestlistnames {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+    width: 200px;
+    color: black;
+}
+
+.nameinfo li {
+    display: flex;
+    height: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    width: 100px;
+    color: black;
+}
+
+
+/* right bottom block */
+
+.connections {
+    height: 200px;
+    border: 3px solid grey;
+}
+
+.yrconn{
+    font-size: 15px;
+}
+
+.connectionlistwindow {
+    margin-top: 10px;
+}
+
+.connectionlistwindow p {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.friendsname {
+    margin-left: 20px;
+    font-size: 15px;
+    color: black
+    
+}
+
+.friendslist {
+    font-size: 20px;
+}
+
+.viewmorefriends{
+    display: flex;
+    height: 30px;
+    border: 3px solid grey;
+    align-items: center;
+    justify-content: left;
+}
