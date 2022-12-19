@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Balsamiq Sans', cursive;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
 
 .topnav, .navlist {
@@ -36,14 +36,13 @@
     font-size: 20px;   
 }
 
-ul {
+.navbar {
     flex: 2;
     display: flex;
     list-style-type: none;
-    font-size: 15px;
 }
 
-li {
+.navitem {
     margin-right: 20px;
 }
 
@@ -71,17 +70,14 @@ input {
 /* general use rules */
 
     .topblock {
-        height: 30%;
+        height: 25%;
         background-color: lightseagreen ;
     }
 
     .toplabel{
-        /* display: flex;
-        align-items: center; */
-        /* height: 40px ; */
         padding: 10px;
         background-color: black;
-        /* margin-bottom: 20px; */
+        font-size: 15px;
     }
 
     .pic {
@@ -89,34 +85,36 @@ input {
         border-radius: 50%;
         margin-right: 10px;
     }
+
+    .font15px {
+        font-size: 15px;
+    }
 /* ********************************** */
 
 
 /* setup left column */
 .leftcolumn{
     flex: 2;
-    /* background-color: yellowgreen; */
 }
 
 .usercard {
-    height: 350px;
+    height: 270px;
     background-color: white;
     margin-bottom: 20px; 
     border: 3px solid grey;
 }
 
-
 .profpic {
     background-color: teal;
-    height: 130px;
-    border-radius: 40%;
-    margin-top: 8%;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
     margin-left: 20px ;
 }
 
 .info {
     color: black;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 15px;
 }
 
@@ -126,52 +124,47 @@ input {
 }
 
 .name {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 3px;
 }
 .address{
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .masterof {
-    font-size: 15px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
-
 }
 
-.edcard{
+.educationcard{
     height: 150px;
     background-color: white;
     border: 3px solid grey;
-    
-}
-
-
-.edlabel {
-    margin-left: 15px;
-    vertical-align: middle;
-    font-size: 25px;
 }
 
 .info1, .info2, .info3{
-    margin-left: 15px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 .info1{
     color: black;
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 18px;
 }
 
 .info2{
-    color: rgb(39, 39, 39);
+    color: grey;
 }
 
 .info3 {
     color: rgb(39, 39, 39);
-    font-size: 20px;
+    font-size: 13px;
+}
+
+.lastline {
+    margin-top: 10px;
 }
 
 
@@ -180,9 +173,10 @@ input {
 }
 
 .countdisplay {
-    height: 20px;
-    width:40px;
-    border-radius: 20px;
+    /* height: 30px; */
+    background-color: white;
+    color: black;
+    border-radius: 10px;
     margin-right: 20px;
     margin-left: 8px;
     align-items: center; 
@@ -197,10 +191,6 @@ input {
 
 }
 
-.conreq {
-    font-size: 15px;
-}
-
 .respondicon {
     height: 20px;
     border-radius: 50%;
@@ -209,38 +199,33 @@ input {
 }
 
 .requestwindow {
-    /* display: flex; */
-    height: 150px;
+    height: 100px;
     margin-top: 10px;
 }
 
-.requestlistnames {
+.nameinfo {
     display: inline-block;
-    margin-left: 20px;
-    font-size: 15px;
-    width: 200px;
     color: black;
 }
 
-.nameinfo li {
+.requestorprofile {
     display: flex;
-    height: 20px;
-    margin-left: 20px;
-    font-size: 15px;
-    width: 100px;
-    color: black;
+    align-items: center;
+    /* width: 200px; */
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
 }
 
+.requestorname {
+    width: 150px;
+}
 
 /* right bottom block */
 
 .connections {
     height: 200px;
     border: 3px solid grey;
-}
-
-.yrconn{
-    font-size: 15px;
 }
 
 .connectionlistwindow {
@@ -255,10 +240,8 @@ input {
 }
 
 .friendsname {
-    margin-left: 20px;
-    font-size: 15px;
-    color: black
-    
+    padding-left: 10px;
+    color: black    
 }
 
 .friendslist {
@@ -269,6 +252,8 @@ input {
     display: flex;
     height: 30px;
     border: 3px solid grey;
+    border-top: 0px;
     align-items: center;
     justify-content: left;
+    padding-left: 10px ;
 }
