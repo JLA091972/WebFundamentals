@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="searchheader setwidth ">
+        <h1>Dojonary</h1>
+        <div class="searchbox">
+            <p class="search">Search</p>
+            <!-- search entry input -->
+        </div>
+        <button onclick="getelementlogin(this)" class="login">Logout</button>
+    </div>
+
+    <div class="mainbody setwidth ">
+        <div class="leftside">
+            <div class="ninjatop borderblack">
+                <div class="definition">
+                    <p class="label">ninja</p>
+                    <p class="verbage">noun</p>
+                    <p class="plural">Plural: ninjas</p>
+                    <button onclick="alert('This page says Ninja was liked')" class="likes borderblack"><span class="countdisplay">13 </span>likes</button>
+                </div>
+                <div class="meaning">
+                    <p> 
+                        A practitioner skilled in the<br>
+                        <span class="highlighttext">Japanese</span> art of <span class="highlighttext"> ninjutsu</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="ninjabottom borderblack">
+                <div class="definition">
+                    <p class="label">ninja</p>
+                    <p class="verbage">noun</p>
+                    <p class="plural">Plural: ninjas</p>
+                    <button onclick="alert('This page says Ninja was liked')" class="likes borderblack"><span class="countdisplay">37 </span>likes</button>
+                </div>
+                <div class="meaning">
+                    <p> 
+                        A <span class="highlighttext">programmer</span> who breaks<br>
+                        down problems with <span class="highlighttext">zen</span>-like<br>
+                        focus
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="dojonary borderblack">
+            <div class="rightbox">
+                <p> Dojonary is</p>
+                <p> defined by YOU </p>
+                <button onclick="getelementadddef(this)" class="add-def">Add Definition</button>          
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
