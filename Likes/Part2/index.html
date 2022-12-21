@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p class="topHeader">Network</p>
+    <p class="title"> Your Feed</p>
+    <!-- lower portion -->
+    <div class="likesbody">
+        <div class="profilebox borders">
+            <img class="picture" src="tootless.png" alt="profile picture">
+            <p>Add an avatar</p>
+            <h2>Toothless</h2>
+        </div>
+
+
+        <div class="friendsboxes">
+            <div class="topbox borders">
+                <div class="nameline">
+                    <p class="friedname">Neil M</p>
+                    <p class="likecount"><span id="likecntr1">9</span> likes(s)</p>
+                    <button onclick="incrementCount('#likecntr1')" class="like">like</button>
+                </div>
+                <p class="quotes"> I just setup this new discord bot, let me <br>
+                    know what you all think.
+                    <a href="#"> link</a>
+                </p>
+
+            </div>
+            <div class="middlebox borders">
+                <div class="nameline">
+                    <p class="friedname">Nichole K</p>
+                    <p class="likecount"><span id="likecntr2">12</span> likes(s)</p>
+                    <button onclick="incrementCount('#likecntr2')" class="like">like</button>
+                </div>
+                <p class="quotes">Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="bottombox borders">
+                <div class="nameline">
+                    <p class="friedname">Neil M</p>
+                    <p class="likecount"><span id="likecntr3">9</span> likes(s)</p>
+                    <button onclick="incrementCount('#likecntr3')" class="like">like</button>
+                </div>
+                <p class="quotes">I can't stop listening to the <a href="#">new album</a> <br>
+                    Who else is liking it?
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

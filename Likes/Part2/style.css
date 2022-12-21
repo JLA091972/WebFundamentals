@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans';
+    /* border: 1px dashed red; */
+}
+
+.borders {
+    border: 3px solid black;
+}
+
+.topHeader,
+.title {
+    margin: 0 auto;
+    height: 50px;
+    width: 600px;
+}
+
+.topHeader {
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 35px;
+
+}
+
+.title {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.picture {
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.likesbody {
+    width: 600px;
+    margin: 0 auto;
+    /* height: 400px; */
+    /* background-color: blanchedalmond; */
+    display: flex;
+    gap: 20px;
+}
+
+.profilebox {
+    flex: 1;
+    
+    height: 200px;
+    align-items: center;
+}
+
+.friendsboxes {
+    flex: 3;
+}
+
+.topbox,
+.middlebox,
+.bottombox {
+    /* height: 200px; */
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.nameline {
+    display: flex;
+    justify-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.friedname {
+    font-size: 25px;
+    width: 210px;
+}
+
+.likecount {
+    font-size: 20px;
+}
+
+.like {
+    background-color: khaki;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 3px;
+    box-shadow: 5px 5px black;
+    width: 65px;
+    margin-left: 20px;
+}
+
+.quotes {
+    font-size: 17px;
+}
